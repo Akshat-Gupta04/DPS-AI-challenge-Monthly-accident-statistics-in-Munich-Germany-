@@ -1,3 +1,7 @@
 --upgrade pip
-pillow==8.4.0
-streamlit==1.26.0
+absl-py==2.1.0
+pillow==9.5.0
+numpy==1.26.4
+pandas==2.2.3
+tensorflow==2.16.2
+streamlit
