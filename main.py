@@ -17,7 +17,7 @@ def generate_prediction(year, month):
     return prediction.iloc[0]  # Extract the single predicted value
 
 # Streamlit app
-st.title("Digital Product School AI Challenge Entry (Akshat)")
+st.title("Digital Product School AI Challenge Entry")
 st.write("Provide year and month to get the prediction.")
 
 # Input fields for year and month
@@ -40,3 +40,24 @@ if st.button("Get Prediction"):
         st.json(output)
     except Exception as e:
         st.error(f"Error: {e}")
+
+# Add watermark text at the bottom
+st.markdown(
+    """
+    <style>
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: grey;
+            opacity: 0.7;
+        }
+    </style>
+    <div class="watermark">
+        © 2024 Digital Product School - Built with ❤️ by Akshat Gupta: E22CSEU0059@bennett.edu.in
+    </div>
+    """,
+    unsafe_allow_html=True
+)
