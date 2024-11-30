@@ -76,7 +76,7 @@ The dataset contains monthly traffic accident statistics in Munich, including:
 ---
 
 ## Deployment Details
-- **GitHub Repository**: [German_model]([https://github.com/Akshat-Gupta04/German_model](https://github.com/Akshat-Gupta04/DPS-AI-challenge-Monthly-accident-statistics-in-Munich-Germany-.git))
+- **GitHub Repository**: [Repository]([https://github.com/Akshat-Gupta04/German_model](https://github.com/Akshat-Gupta04/DPS-AI-challenge-Monthly-accident-statistics-in-Munich-Germany-.git))
 - **Deployed App URL**: [Streamlit App]([https://germanmodel.streamlit.app](https://germanmodel-s8qi2zaxwbqxgyfqddgssd.streamlit.app))
 - **POST Endpoint**: `{Deployed App URL}/predict`
 
