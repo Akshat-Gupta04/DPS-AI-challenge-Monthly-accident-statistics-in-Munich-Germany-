@@ -17,7 +17,7 @@ def generate_prediction(year, month):
     return prediction.iloc[0]  # Extract the single predicted value
 
 # Streamlit app
-st.title("SARIMA Model Prediction")
+st.title("Digital Product School AI Challenge Entry (Akshat)")
 st.write("Provide year and month to get the prediction.")
 
 # Input fields for year and month
