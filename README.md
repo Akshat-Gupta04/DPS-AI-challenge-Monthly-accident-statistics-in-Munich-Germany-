@@ -1,4 +1,4 @@
-# Accident Prediction Using SARIMA Model
+# Accident Statistical Prediction Using SARIMA Model
 
 ## Overview
 This project is part of the **Digital Product School AI Challenge**, where the objective is to predict the number of alcohol-related accidents (**“Alkoholunfälle”**) in Munich for a specified year and month. Using the **Monatszahlen Verkehrsunfälle** dataset from the **München Open Data Portal**, we created a predictive model based on historical accident data.
