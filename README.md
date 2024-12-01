@@ -82,13 +82,6 @@ The dataset contains monthly traffic accident statistics in Munich, including:
 
 ---
 
-## Future Improvements
-1. Extend the model to predict other accident categories.
-2. Improve accuracy by exploring advanced models like LSTM or Prophet.
-3. Add confidence intervals for predictions.
-
----
-
 ## Acknowledgments
 - Dataset provided by **München Open Data Portal**.
 - Challenge organized by **Digital Product School**.
